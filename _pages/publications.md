@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Publications, sorted by the year. 
-years: {2022, 2021}
+years: [2022, 2021]
 nav: true
 nav_order: 1
 ---
@@ -16,4 +16,3 @@ nav_order: 1
 {% endfor %}
 
 </div>
-
