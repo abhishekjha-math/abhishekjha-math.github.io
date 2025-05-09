@@ -1,4 +1,5 @@
 ---
+---
 layout: page
 permalink: /publications/
 title: Publications
@@ -11,7 +12,9 @@ nav_order: 1
 <div class="publications">
 
 {%- for y in page.years %}
-  {% bibliography -f {{ site.scholar.bibliography }}  %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f {{ site.scholar.bibliography }} -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
+
