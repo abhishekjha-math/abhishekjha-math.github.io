@@ -12,7 +12,7 @@ nav_order: 1
 
 <ul>
   <li>
-    <p> <em>Smallest totient in a residue class</em> Bull. London Math. Soc. 57 (2025), 1908-1917. (<a href="https://arxiv.org/abs/2412.04632" rel="external nofollow noopener" target="_blank">arXiv</a>,<a href="https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/blms.70069" rel="external nofollow noopener" target="_blank"> journal</a>)</p>
+    <p> <em>Smallest totient in a residue class.</em> Bull. London Math. Soc. 57 (2025), 1908-1917. (<a href="https://arxiv.org/abs/2412.04632" rel="external nofollow noopener" target="_blank">arXiv</a>,<a href="https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/blms.70069" rel="external nofollow noopener" target="_blank"> journal</a>)</p>
   </li>
   <li>
     <p> (with <a href="https://sites.google.com/view/carlo-sanna-math" rel="external nofollow noopener" target="_blank">Carlo Sanna</a>) <em>On the greatest common divisor of n and the n^{th} Fibonacci number,  II.</em> Canad. Math. Bull. 66 (2022), no. 2, 617-625. (<a href="https://arxiv.org/abs/2207.03521" rel="external nofollow noopener" target="_blank">arXiv</a>,<a href="https://doi.org/10.4153/s0008439522000595" rel="external nofollow noopener" target="_blank"> journal</a>)</p>
