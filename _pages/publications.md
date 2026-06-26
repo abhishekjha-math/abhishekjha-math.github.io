@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Research Work
+title: Research
 description: Papers, sorted by the year. 
 years: [2025, 2022, 2021]
 nav: true
