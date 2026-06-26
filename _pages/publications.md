@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Research
-description: Papers, sorted by the year. 
+description:  
 years: [2025, 2022, 2021]
 nav: true
 nav_order: 1
@@ -27,13 +27,13 @@ nav_order: 1
     <p> (with <a href="https://sites.google.com/view/carlo-sanna-math" rel="external nofollow noopener" target="_blank">Carlo Sanna</a>) <em>Greatest common divisors of shifted primes and Fibonacci numbers.</em> Res. Number Theory 08 (2022), no. 4. (<a href="https://arxiv.org/abs/2204.05161" rel="external nofollow noopener" target="_blank">arXiv</a>,<a href="https://doi.org/10.1007/s40993-022-00365-2" rel="external nofollow noopener" target="_blank"> journal</a>)</p>
   </li>
   <li>
-    <p> <em>On terms in a dynamical divisibility sequence having a fixed G.C.D with their indices.</em> New York J. Math. 48 (2022), no. 49, 1152-1171. (<a href="https://arxiv.org/abs/2105.06190" rel="external nofollow noopener" target="_blank">arXiv</a>,<a href="https://nyjm.albany.edu/j/2022/28-49.html" rel="external nofollow noopener" target="_blank"> journal</a>,<a href="https://drive.google.com/file/d/1Qb15rCFltmRVl_NJ9pFCp2_c_Gs2h11z/view" rel="external nofollow noopener" target="_blank"> slides</a>)</p>
+    <p> (with <a href="https://ayan7744.github.io/" rel="external nofollow noopener" target="_blank">Ayan Nath</a>) <em>On Quotients of Values of Euler's Function on Factorials.</em> Bull. Aus. Math. Soc. 105 (2021), no. 03, 353-364. (<a href="https://arxiv.org/abs/2110.09875" rel="external nofollow noopener" target="_blank">arXiv</a>,<a href="https://doi.org/10.1017/s0004972721000939" rel="external nofollow noopener" target="_blank"> journal</a>,<a href="https://drive.google.com/file/d/1C29Vnik3WIHlaRhy6MjXHEZG3wPpbP3H/view?usp=sharing" rel="external nofollow noopener" target="_blank"> slides</a>)</p>
   </li>
   <li>
     <p> (with <a href="https://ayan7744.github.io/" rel="external nofollow noopener" target="_blank">Ayan Nath</a>) <em>On the least common multiple of polynomial sequences at prime arguments.</em> Int. J. Number Theory 18 (2021), no. 16, 1227-1237. (<a href="https://arxiv.org/abs/2106.06782" rel="external nofollow noopener" target="_blank">arXiv</a>,<a href="https://doi.org/10.1142/s1793042122500622" rel="external nofollow noopener" target="_blank"> journal</a>,<a href="https://drive.google.com/file/d/1GNvGIVGe1n-TT4FY2-a9yoDzRBkH3em9/view?usp=sharing" rel="external nofollow noopener" target="_blank"> slides</a>)</p>
   </li>
   <li>
-    <p> (with <a href="https://ayan7744.github.io/" rel="external nofollow noopener" target="_blank">Ayan Nath</a>) <em>On Quotients of Values of Euler's Function on Factorials.</em> Bull. Aus. Math. Soc. 105 (2021), no. 03, 353-364. (<a href="https://arxiv.org/abs/2110.09875" rel="external nofollow noopener" target="_blank">arXiv</a>,<a href="https://doi.org/10.1017/s0004972721000939" rel="external nofollow noopener" target="_blank"> journal</a>,<a href="https://drive.google.com/file/d/1C29Vnik3WIHlaRhy6MjXHEZG3wPpbP3H/view?usp=sharing" rel="external nofollow noopener" target="_blank"> slides</a>)</p>
+    <p> <em>On terms in a dynamical divisibility sequence having a fixed G.C.D with their indices.</em> New York J. Math. 48 (2022), no. 49, 1152-1171. (<a href="https://arxiv.org/abs/2105.06190" rel="external nofollow noopener" target="_blank">arXiv</a>,<a href="https://nyjm.albany.edu/j/2022/28-49.html" rel="external nofollow noopener" target="_blank"> journal</a>,<a href="https://drive.google.com/file/d/1Qb15rCFltmRVl_NJ9pFCp2_c_Gs2h11z/view" rel="external nofollow noopener" target="_blank"> slides</a>)</p>
   </li>
 </ul>
 </div>
