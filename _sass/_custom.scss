@@ -237,43 +237,23 @@ html[data-theme="dark"] .navbar {
 /* ========================================== */
 
 html[data-theme='light'] {
-  /* Soft, paper-like off-white background (matches standard academic themes) */
-  --global-bg-color: #fafafa !important;
+  /* Off-white background and text colors */
+  --global-bg-color: #e0e0e0 !important;
+  --global-text-color: #000000 !important;
 
-  /* Rich, readable green accents */
-  --global-theme-color: #007a40 !important; 
-  --global-hover-color: #00592e !important; 
+  /* Your custom green for accents/links (replaces the default red) */
+  --global-theme-color: #009950 !important; 
+  --global-hover-color: #007a40 !important; 
 }
 
-/* Apply a clean "soft black" (charcoal) to text for readability without glare */
-html[data-theme='light'] body,
-html[data-theme='light'] p,
-html[data-theme='light'] h1,
-html[data-theme='light'] h2,
-html[data-theme='light'] h3,
-html[data-theme='light'] h4,
-html[data-theme='light'] h5,
-html[data-theme='light'] h6,
-html[data-theme='light'] li,
-html[data-theme='light'] table {
-  color: #222222 !important;
-}
-
-/* Secondary text (dates, authors) gets a slightly lighter gray */
-html[data-theme='light'] .text-muted,
-html[data-theme='light'] .periodical,
-html[data-theme='light'] .author {
-  color: #555555 !important;
-}
-
-/* Ensure the light mode navigation bar matches the soft background */
+/* Ensure the light mode navigation bar matches the exact background color */
 html[data-theme='light'] header.fixed-top,
 html[data-theme='light'] .navbar {
-  background: #fafafa !important;
-  border-bottom: 1px solid #e0e0e0 !important; 
+  background-color: #e0e0e0 !important;
+  border-bottom: 1px solid #cccccc !important; 
 }
 
-/* Ensure the main container wrapper remains completely transparent */
+/* Ensure the main container wrapper remains transparent */
 html[data-theme="light"] .container,
 html[data-theme="light"] .wrapper {
   background: transparent !important;
