@@ -1253,4 +1253,19 @@ footer.sticky-bottom {
   max-width: 20vw;
 }
 
+/* Apply the Slate Gradient to the Main Background only */
+html[data-theme=dark] body {
+  background: linear-gradient(135deg, #333333 0%, #000000 100%) !important;
+  background-attachment: fixed !important;
+}
+
+/* Force the Navbar to stay completely solid using the theme's dark gray token */
+html[data-theme=dark] .navbar {
+  background-color: #1c1c1c !important;
+}
+
+html[data-theme=dark] header {
+  background-color: #1c1c1c !important;
+}
+
 /*# sourceMappingURL=main.css.map */
