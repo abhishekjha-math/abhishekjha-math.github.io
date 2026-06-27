@@ -22,4 +22,4 @@ nav_order: 1
 
 * (with [Ayan Nath](https://ayan7744.github.io/)) **On the least common multiple of polynomial sequences at prime arguments.** *Int. J. Number Theory 18 (2021)*, no. 16, 1227-1237. ([arXiv](https://arxiv.org/abs/2106.06782), [journal](https://doi.org/10.1142/s1793042122500622), [slides](https://drive.google.com/file/d/1GNvGIVGe1n-TT4FY2-a9yoDzRBkH3em9/view?usp=sharing))
 
-* **On terms in a dynamical divisibility sequence having a fixed G.C.D with their indices.* New York J. Math. 48 (2022)*, no. 49, 1152-1171. ([arXiv](https://arxiv.org/abs/2105.06190), [journal](https://nyjm.albany.edu/j/2022/28-49.html), [slides](https://drive.google.com/file/d/1Qb15rCFltmRVl_NJ9pFCp2_c_Gs2h11z/view))
+* **On terms in a dynamical divisibility sequence having a fixed G.C.D with their indices.** *New York J. Math. 48 (2022)*, no. 49, 1152-1171. ([arXiv](https://arxiv.org/abs/2105.06190), [journal](https://nyjm.albany.edu/j/2022/28-49.html), [slides](https://drive.google.com/file/d/1Qb15rCFltmRVl_NJ9pFCp2_c_Gs2h11z/view))
