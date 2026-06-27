@@ -1273,4 +1273,30 @@ html[data-theme=dark] .navbar {
   border-bottom: 1px solid #333333; /* Adds a clean, subtle separation line */
 }
 
+/* ========================================== */
+/* LIGHT THEME CUSTOMIZATIONS                 */
+/* ========================================== */
+html[data-theme=light] {
+  /* Clean, crisp background and text */
+  --global-bg-color: #ffffff !important;
+  --global-text-color: #222222 !important;
+  /* Swap the default red accents for Green */
+  /* Note: Using a slightly deeper green here so it stays readable on a white background */
+  --global-theme-color: #009950 !important;
+  --global-hover-color: #007a40 !important;
+}
+
+/* Ensure the light mode navigation bar stays solid white to hide scrolling text */
+html[data-theme=light] header.fixed-top,
+html[data-theme=light] .navbar {
+  background: #ffffff !important;
+  border-bottom: 1px solid #eaeaea; /* Adds a very faint gray line for separation */
+}
+
+/* Ensure the main container wrapper remains completely transparent in light mode too */
+html[data-theme=light] .container,
+html[data-theme=light] .wrapper {
+  background: transparent !important;
+}
+
 /*# sourceMappingURL=main.css.map */
