@@ -89,18 +89,6 @@ html[data-theme=dark] .repo-img-dark {
   display: block;
 }
 
-/* Optimized Gradient & Solid Navbar Fix */
-html[data-theme=dark] body {
-  background: linear-gradient(135deg, #333333 0%, #000000 100%) !important;
-  background-attachment: fixed !important;
-}
-
-/* Force a solid color background onto the fixed header block */
-html[data-theme=dark] header.fixed-top,
-html[data-theme=dark] nav.navbar {
-  background: #1c1c1c !important;
-}
-
 /*******************************************************************************
  * ADDED: Custom colors
  ******************************************************************************/
