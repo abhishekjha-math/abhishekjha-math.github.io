@@ -8,8 +8,7 @@ nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
-
-
+<br>
 * **The Poisson Tail Conjecture for primes in short intervals.** *(2026)*, 29 pages. ([arXiv](https://arxiv.org/abs/2605.23014))
 
 * **Smallest totient in a residue class.** *Bull. Lond. Math. Soc. 57 (2025)*, 1908-1917. ([arXiv](https://arxiv.org/abs/2412.04632), [journal](https://londmathsoc.onlinelibrary.wiley.com/doi/full/10.1112/blms.70069), [slides](https://drive.google.com/file/d/1IMTHFDevI-yZefx0B5jfnnqjW75-PnFx/view?usp=drive_link))
