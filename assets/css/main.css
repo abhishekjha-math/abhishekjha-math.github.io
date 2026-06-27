@@ -1244,8 +1244,8 @@ html[data-theme=dark] header.fixed-top, html[data-theme=dark] .navbar {
 html[data-theme=light] {
   --global-bg-color: #f4f4f4 !important; /* Your chosen background */
   --global-text-color: #212121 !important; /* Your chosen text color */
-  --global-theme-color: #004d26 !important; /* Your chosen darker green */
-  --global-hover-color: #002614 !important;
+  --global-theme-color: #008040 !important; /* Your chosen darker green */
+  --global-hover-color: #00592d !important;
 }
 
 html[data-theme=light] header.fixed-top,
