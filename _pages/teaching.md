@@ -7,6 +7,7 @@ years:
 nav: true
 nav_order: 1
 ---
+
 * **CRM Summer School: Universal Statistics in Number Theory**<br>
   Université de Montréal, Montréal - May 2026 
   
