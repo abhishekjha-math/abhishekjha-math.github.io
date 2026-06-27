@@ -89,21 +89,16 @@ html[data-theme=dark] .repo-img-dark {
   display: block;
 }
 
-/* Custom Background Gradient & Opaque Header Fix */
-html[data-theme=dark] {
-  --global-bg-color: transparent !important;
-}
-
+/* Optimized Gradient & Solid Navbar Fix */
 html[data-theme=dark] body {
   background: linear-gradient(135deg, #333333 0%, #000000 100%) !important;
   background-attachment: fixed !important;
 }
 
-/* Forces the navigation bar to stay solid dark gray so text doesn't overlap */
-html[data-theme=dark] .navbar,
-html[data-theme=dark] header,
-html[data-theme=dark] .fixed-top {
-  background-color: #212529 !important;
+/* Force a solid color background onto the fixed header block */
+html[data-theme=dark] header.fixed-top,
+html[data-theme=dark] nav.navbar {
+  background: #1c1c1c !important;
 }
 
 /*******************************************************************************
