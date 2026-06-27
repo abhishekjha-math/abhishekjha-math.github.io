@@ -1,47 +1,33 @@
 ---
 layout: page
+permalink: /Talks/
 title: Talks and Workshops
-permalink: /Talks and Workshops/
-description: 
+description:  
+years:
 nav: true
-only_highlights: false
-display_categories: [Selected Talks and Presentations, Selected Talks and workshops attended]
-nav_order: 7
+nav_order: 1
 ---
+* **CRM Summer School: Universal Statistics in Number Theory**<br>
+  Université de Montréal, Montréal - May 2026 
+  
+* **Smallest totient in a residue class**<br>
+  *Alladi70 Conference, in honor of Krishna Alladi's 70th birthday*, University of Florida, Gainesville - Mar 2026
 
-<!-- pages/writing.md -->
-<div class="writing">
-{%- if site.enable_project_categories and page.display_categories -%}
-  <!-- Display categorized writing -->
-  {%- for category in page.display_categories -%}
-  <h2 class="category">{{ category }}</h2>
-  {%- if page.only_highlights -%}
-    {%- assign categorized_projects = site.writing | where: "highlighted", true | where: "category", category -%}
-  {%- else -%}
-    {%- assign categorized_projects = site.writing | where: "category", category  -%}
-  {%- endif -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" -%}
-  <!-- Generate cards for each writing type -->
-  <div class="list-style mx-auto">
-    {%- for project in categorized_projects -%}
-      {% include writing.html %}
-    {%- endfor %}
-  </div>
-  {% endfor %}
+* **Smallest totient in a residue class**<br>
+  *UIUC Number Theory Seminar*, UIUC - Nov 2025
 
-{%- else -%}
-<!-- Display writing without categories -->
-  {%- if page.only_highlights -%}
-  {%- assign sorted_projects = site.writing | where: "highlighted", true | sort: "importance" -%}
-  {%- else -%}
-  {%- assign sorted_projects = site.writing | sort: "importance" -%}
-  {%- endif -%}
-  <!-- Generate cards for each project -->
-  <div class="list-style mx-auto">
-    {%- for project in sorted_projects -%}
-      {% include writing.html %}
-    {%- endfor %}
-  </div>
-{%- endif -%}
+* **Smallest totient in a residue class**<br>
+  *Integers Conference, in honor of the 80th Birthdays of Melvyn Nathanson and Carl Pomerance*, University of Georgia, Athens - May 2025
 
-</div>
+* **On Quotients of Values of Euler’s Function on Factorials**<br>
+  *Pi day celebrations*, IIIT, New Delhi - Mar 2024
+
+* **On terms in a dynamical divisibility sequence having a fixed G.C.D with their indices**<br>
+  *8th Annual Conference of Ramanujan Mathematical Society*, IIT, Guwahati - Dec 2023
+
+* **The LCM of polynomial sequences at prime arguments**<br>
+  *Diophantine Day*, ISI, New Delhi - Sept 2023
+
+* **On terms in a dynamical divisibility sequence having a fixed G.C.D with their indices**<br>
+  *Number Theory Meeting*, ISI, New Delhi - Mar 2023
+
