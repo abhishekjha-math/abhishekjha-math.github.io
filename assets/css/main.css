@@ -89,6 +89,16 @@ html[data-theme=dark] .repo-img-dark {
   display: block;
 }
 
+/* Visible Slate Gradient Background */
+html[data-theme=dark] {
+  --global-bg-color: transparent !important;
+}
+
+html[data-theme=dark] body {
+  background: linear-gradient(135deg, #333333 0%, #000000 100%) !important;
+  background-attachment: fixed !important;
+}
+
 /*******************************************************************************
  * ADDED: Custom colors
  ******************************************************************************/
