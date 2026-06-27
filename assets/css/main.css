@@ -89,7 +89,7 @@ html[data-theme=dark] .repo-img-dark {
   display: block;
 }
 
-/* Visible Slate Gradient Background */
+/* Custom Background Gradient & Opaque Header Fix */
 html[data-theme=dark] {
   --global-bg-color: transparent !important;
 }
@@ -97,6 +97,13 @@ html[data-theme=dark] {
 html[data-theme=dark] body {
   background: linear-gradient(135deg, #333333 0%, #000000 100%) !important;
   background-attachment: fixed !important;
+}
+
+/* Forces the navigation bar to stay solid dark gray so text doesn't overlap */
+html[data-theme=dark] .navbar,
+html[data-theme=dark] header,
+html[data-theme=dark] .fixed-top {
+  background-color: #212529 !important;
 }
 
 /*******************************************************************************
