@@ -1,260 +1,86 @@
 /*******************************************************************************
- * ADDED: Custom styles (overides _base)
+ * ADDED: Custom styles (overrides _base)
  ******************************************************************************/
+
+/* 1. Import Inter and set global font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, p, li, .navbar {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+/* 2. Tighten Spacing */
+p {
+  line-height: 1.5 !important;
+  margin-bottom: 1rem !important;
+}
+
 // General Typography
 table {
-
-  td,
-  th {
-    font-size: 1rem;
-  }
-
-  th {
-    font-weight: normal;
-  }
+  td, th { font-size: 1rem; }
+  th { font-weight: normal; }
 }
-
 
 // Footer
-footer.fixed-bottom {
-  .container {
-    text-align: center;
-  }
-}
-
-footer.sticky-bottom {
-  text-align: center;
-}
+footer.fixed-bottom { .container { text-align: center; } }
+footer.sticky-bottom { text-align: center; }
 
 // About page header
 .post-header {
-  .profile {
-    img {
-      width: 25vw;
-    }
-  }
+  .profile img { width: 25vw; }
+  .desc { color: var(--global-theme-color); }
+  .address { color: var(--global-text-color); a { color: var(--global-text-color); } }
 
-  .desc {
-    color: var(--global-theme-color);
-  }
-
-  .address {
-    color: var(--global-text-color);
-
-    a {
-      color: var(--global-text-color);
-    }
-  }
-
-  // Social
   .social {
     text-align: left;
-
     .contact-icons {
       font-size: 2.5rem;
-
       a {
-        i::before {
-          color: var(--global-text-color);
-          transition-property: all 0.2s ease-in-out;
-        }
-
-        &:hover {
-          i::before {
-            color: var(--global-theme-color);
-          }
-        }
+        i::before { color: var(--global-text-color); transition-property: all 0.2s ease-in-out; }
+        &:hover i::before { color: var(--global-theme-color); }
       }
     }
-
-    .contact-note {
-      font-size: 0.9rem;
-    }
+    .contact-note { font-size: 0.9rem; }
   }
 }
 
-// Projects
-.projects {
-  .card {
-    .card-title {
-      font-size: 1.5rem;
-    }
-
-    &:hover {
-      transform: scale(1.01);
-    }
-
-  }
-}
-
-// Publications
+// Projects & Publications
+.projects .card:hover { transform: scale(1.01); }
 .publications {
   margin-top: 2rem;
-
-  ol.bibliography {
-    li {
-      .author {
-        a {
-          border-bottom: 1px dashed var(--global-text-color);
-          color: var(--global-text-color);
-
-          &:hover {
-            border-bottom-style: solid;
-            text-decoration: none;
-            color: var(--global-hover-color);
-          }
-        }
-
-        >em {
-          color: var(--global-theme-color);
-        }
-      }
-
-      .pub-note {
-        font-size: small;
-        font-style: italic;
-        color: var(--global-theme-color);
-      }
-    }
+  ol.bibliography li {
+    .author a { border-bottom: 1px dashed var(--global-text-color); color: var(--global-text-color); }
+    .author > em { color: var(--global-theme-color); }
+    .pub-note { font-size: small; font-style: italic; color: var(--global-theme-color); }
   }
 }
 
-// Blog
-.header-bar {
-  border-bottom: none;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-
-  h1 {
-    font-size: 3.5rem;
-  }
-
-  h2 {
-    font-size: 1.75rem;
-  }
-
-}
-
-.blog-metadata {
-  border-bottom: 1px solid var(--global-divider-color);
-  font-size: small;
-
-  .tag-list {
-    border-bottom: none;
-    padding-top: 1rem;
-    padding-bottom: 0rem;
-
-    ul {
-
-      p,
-      li {
-        padding: 0rem 0rem;
-      }
-    }
-
-    a {
-      color: var(--global-text-color-light);
-    }
-  }
-
-}
-
-// Writing
+// Blog & Writing
+.header-bar { border-bottom: none; padding: 1rem 0; h1 { font-size: 3.5rem; } h2 { font-size: 1.75rem; } }
 .writing {
-  a {
-    text-decoration: none;
-
-    &:hover {
-      .card-title {
-        color: var(--global-hover-color);
-      }
-    }
-  }
-
-  h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
-    padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
-  }
-
-
-  .card {
-    border-style: hidden;
-    border: none;
-    box-shadow: none;
-    background-color: var(--global-bg-color);
-
-    &:hover {
-      transform: scale(1.02);
-    }
-
-    h5 {
-      font-size: 1.25rem;
-    }
-
-    h6 {
-      font-size: 0.9rem;
-    }
-
-    .card-subtitle {
-      color: var(--global-theme-color);
-    }
-  }
-
-  figure,
-  img {
-    max-width: 20vw;
-  }
-
-
+  a { text-decoration: none; &:hover .card-title { color: var(--global-hover-color); } }
+  h2.category { color: var(--global-divider-color); border-bottom: 1px solid var(--global-divider-color); padding-top: 0.5rem; margin: 2rem 0 1rem 0; text-align: right; }
+  .card { border: none; box-shadow: none; background-color: var(--global-bg-color); &:hover { transform: scale(1.02); } }
+  figure, img { max-width: 20vw; }
 }
 
-/* Apply gradient strictly to the body and lock it in place */
-html[data-theme="dark"] body {
-  background: linear-gradient(135deg, #333333 0%, #000000 100%) !important;
-  background-attachment: fixed !important;
-  background-size: cover !important;
-}
-
-/* Ensure the main container wrapper remains completely transparent */
-html[data-theme="dark"] .container,
-html[data-theme="dark"] .wrapper {
-  background: transparent !important;
-}
-
-/* Force a solid dark shield onto the navigation bar so scrolling text hides behind it */
-html[data-theme="dark"] header.fixed-top,
-html[data-theme="dark"] .navbar {
-  background: #1c1c1c !important;
-  border-bottom: 1px solid #333333; /* Adds a clean, subtle separation line */
-}
+/* Dark Theme */
+html[data-theme="dark"] body { background: linear-gradient(135deg, #333333 0%, #000000 100%) !important; background-attachment: fixed !important; }
+html[data-theme="dark"] header.fixed-top, html[data-theme="dark"] .navbar { background: #1c1c1c !important; border-bottom: 1px solid #333333; }
 
 /* ========================================== */
 /* LIGHT THEME CUSTOMIZATIONS                 */
 /* ========================================== */
-
 html[data-theme='light'] {
-  /* Ayan's exact background and text colors */
-  --global-bg-color: #f4f4f4 !important;
-  --global-text-color: #212121 !important;
-
-  /* Your custom green for accents/links (replaces the default red) */
-  --global-theme-color: #009950 !important; 
-  --global-hover-color: #007a40 !important; 
+  --global-bg-color: #f4f4f4 !important; /* Your chosen background */
+  --global-text-color: #212121 !important; /* Your chosen text color */
+  --global-theme-color: #004d26 !important; /* Your chosen darker green */
+  --global-hover-color: #002614 !important;
 }
 
-/* Ensure the light mode navigation bar matches the exact background color */
 html[data-theme='light'] header.fixed-top,
 html[data-theme='light'] .navbar {
-  background-color: #e0e0e0 !important;
+  background-color: #f4f4f4 !important;
   border-bottom: 1px solid #cccccc !important; 
-}
-
-/* Ensure the main container wrapper remains transparent */
-html[data-theme="light"] .container,
-html[data-theme="light"] .wrapper {
-  background: transparent !important;
 }
