@@ -1250,8 +1250,8 @@ html[data-theme=light] {
 
 html[data-theme=light] header.fixed-top,
 html[data-theme=light] .navbar {
-  background-color: #f4f4f4 !important;
-  border-bottom: 1px solid #cccccc !important;
+  background-color: #e0e0e0 !important;
+  border-bottom: 1px solid #c0c0c0 !important;
 }
 
 /*# sourceMappingURL=main.css.map */
