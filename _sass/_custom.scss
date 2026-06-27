@@ -237,30 +237,13 @@ html[data-theme="dark"] .navbar {
 /* ========================================== */
 
 html[data-theme='light'] {
-  /* Off-white background */
-  --global-bg-color: #e0e0e0 !important;
+  /* Ayan's exact background and text colors */
+  --global-bg-color: #f4f4f4 !important;
+  --global-text-color: #212121 !important;
 
-  /* Global pure black for text */
-  --global-text-color: #000000 !important;
-
-  /* A much darker, richer academic green for accents */
-  --global-theme-color: #004d26 !important; 
-  --global-hover-color: #002614 !important; 
-}
-
-/* Force pure black onto standard content text without breaking your green subtitle */
-html[data-theme='light'] .post p,
-html[data-theme='light'] .post-content p,
-html[data-theme='light'] .post-content li,
-html[data-theme='light'] .publications {
-  color: #000000 !important;
-}
-
-/* Darken Bootstrap's faded text classes (dates, journal names) so they aren't washed out */
-html[data-theme='light'] .text-muted,
-html[data-theme='light'] .periodical,
-html[data-theme='light'] .author {
-  color: #333333 !important;
+  /* Your custom green for accents/links (replaces the default red) */
+  --global-theme-color: #009950 !important; 
+  --global-hover-color: #007a40 !important; 
 }
 
 /* Ensure the light mode navigation bar matches the exact background color */
