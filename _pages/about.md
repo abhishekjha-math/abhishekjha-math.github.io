@@ -19,6 +19,6 @@ social: true  # includes social icons at the bottom of the page
 
 Greetings! My name is Abhishek, and I am a doctoral student in Mathematics at the University of Illinois, Urbana-Champaign where I am advised by Professor Kevin Ford. Previously, I graduated with a Bachelor of Technology in Computer Science and Artificial Intelligence from the Indraprastha Institute of Information Technology, New Delhi.
 
-My research interests lie in analytic number theory, focusing on multiplicative number theory, sieve methods, statistics of primes and distribution of arithmetic functions.
+My research interests lie in analytic number theory, focusing on multiplicative number theory, sieve methods, statistics of primes and distribution of arithmetic functions. Here's my [CV](https://drive.google.com/file/d/1zk37AUphmn6IlKt9E2y9E95aBU94MU2_/view?usp=sharing).
 
 
