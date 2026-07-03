@@ -1259,4 +1259,11 @@ html[data-theme=light] .navbar {
   opacity: 0.6 !important;
 }
 
+@media (max-width: 767px) {
+  .profile .address {
+    margin-bottom: 1.5rem !important;
+    display: block !important;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
