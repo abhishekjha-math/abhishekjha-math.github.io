@@ -89,3 +89,10 @@ html[data-theme='light'] .navbar {
   font-size: 0.8rem !important;
   opacity: 0.6 !important;
 }
+
+@media (max-width: 767px) {
+  .profile .address {
+    margin-bottom: 1.5rem !important;
+    display: block !important;
+  }
+}
