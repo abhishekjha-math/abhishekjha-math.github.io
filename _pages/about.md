@@ -8,14 +8,14 @@ profile:
   align: left
   image: AbhishekJha.jpg
   image_circular: false # crops the image to make it circular
-  address:
+  address: "<span style='font-size: 0.8rem; opacity: 0.6;'>Photo by Esha Jain</span>"
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-<p style="font-size: 0.8rem; opacity: 0.6; margin-top: -10px; margin-bottom: 20px;">Photo by Esha Jain</p>
+
 
 Greetings! My name is Abhishek, and I am a doctoral student in Mathematics at the University of Illinois, Urbana-Champaign where I am advised by Professor [Kevin Ford](https://ford126.web.illinois.edu/). Previously, I graduated with a Bachelor of Technology in Computer Science and Artificial Intelligence from the Indraprastha Institute of Information Technology, New Delhi.
 
