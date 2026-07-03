@@ -6,7 +6,7 @@ subtitle: Math PhD student at UIUC
 
 profile:
   align: left
-  image: WhatsApp Image 2025-03-17 at 03.28.39_95425563.jpg
+  image: Abhishek_Jha.jpeg
   image_circular: false # crops the image to make it circular
   address: 
 
