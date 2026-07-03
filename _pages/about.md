@@ -6,7 +6,7 @@ subtitle: Math PhD student at UIUC
 
 profile:
   align: left
-  image: Abhishek_Jha.jpeg
+  image: AbhishekJha.jpg
   image_circular: false # crops the image to make it circular
   address: Photo by Esha Jain
 
